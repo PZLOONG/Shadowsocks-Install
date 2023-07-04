@@ -237,7 +237,7 @@ pre_install(){
     # echo
     # break
     # done
-    shadowsockscipher=aes-256-cfb
+    shadowsockscipher="aes-256-cfb"
 
     # Set shadowsocksR config protocol
     # while true
@@ -266,7 +266,7 @@ pre_install(){
     # echo
     # break
     # done
-    shadowsockprotocol=auth_sha1_v4
+    shadowsockprotocol="auth_sha1_v4"
 
     # Set shadowsocksR config obfs
     # while true
@@ -295,7 +295,7 @@ pre_install(){
     # echo
     # break
     # done
-    shadowsockobfs=http_simple
+    shadowsockobfs="http_simple"
 
     echo
     echo "Press any key to start...or Press Ctrl+C to cancel"
